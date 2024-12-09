@@ -1,0 +1,36 @@
+name: artor
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.2
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  animated_text_kit: ^4.2.2
+  cached_network_image: ^3.4.1
+  flutter_launcher_icons: ^0.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/UNCOUNTED.mp4
+    - assets/bg_1.gif
+    - assets/bg_2.gif
+    - assets/bg_3.gif
+    - assets/bg_img.jpg
